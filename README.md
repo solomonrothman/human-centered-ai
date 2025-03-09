@@ -143,7 +143,7 @@ We encourage contributions to the HCAI Technical Protocol! Contributions may inc
 *   Research on relevant topics.
 * Translating to other languages.
 
-Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed instructions on how to contribute. *(Note: You'll need to create this file in your GitHub repository.)*
+Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for detailed instructions on how to contribute.
 
 ## Version Control
 
