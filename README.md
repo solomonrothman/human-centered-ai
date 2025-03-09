@@ -151,16 +151,7 @@ The HCAI Technical Protocol will follow a semantic versioning system (MAJOR.MINO
 
 ## Contact Information
 
-For inquiries, support, or to report issues, please contact: [Your Contact Information Here]
+For inquiries, support, or to report issues, please contact: solroth@sorlrothmedia.com
 
----
 
-This `README.md` provides a solid starting point for the GitHub repository. It's concise, informative, and clearly explains the purpose of the HCAI Technical Protocol. Remember to:
-
-*   **Replace Placeholders:** Replace the bracketed placeholders with the actual information (GitHub link, contact information, etc.).
-*   **Create CONTRIBUTING.md:** Create a `CONTRIBUTING.md` file in your repository with detailed instructions on how contributors should submit issues, pull requests, etc.
-*   **Add License Files:** Include the full text of the Apache 2.0 and CC-BY-4.0 licenses in separate files (e.g., `LICENSE-CODE`, `LICENSE-TEXT`).
-*   **Structure the Repository:** Create folders to organize the different components of the protocol (e.g., `axioms`, `implementation`, `guidelines`, `examples`).
-
-This setup will make the HCAI Technical Protocol readily accessible and encourage community participation in its development.
 
