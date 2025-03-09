@@ -44,9 +44,19 @@ The HCAI is grounded in a set of core axioms that are considered to be fundament
 
 5.  **Input Validation Axiom:** `All input must be checked for consistency with the other axioms.`
     *   *Explanation:* This axiom prevents the AI from accepting false or contradictory information. All data received by the AI, from any source, must be validated against the axioms *before* being processed. This includes data from sensors, user inputs, other AI systems, and even updates to its own code.
+      
     *   *Implementation:* Input validation routines, logical consistency checks, integration with the axiomatic core.
 
-6.  **Axiom of Contingency, Human Consultation, and Cross-Validation:** `For every system and process, a predefined contingency plan MUST exist to address failures, unexpected outcomes, or situations where the AI cannot determine a course of action consistent with the other axioms. This plan MUST include: 1) Steps for immediate safe shutdown or stabilization of the system. 2) A mechanism for soliciting input from designated human authorities, presenting them with clearly defined choices when necessary. 3) A default action, to be taken if human input is unavailable within a specified time limit, that prioritizes minimizing harm. 4) Continuous, automated self-checking (at least hourly) of all systems against these contingency plans, ensuring their ongoing validity and functionality. 5) Any emergency action that has no provably non-harmful option *must* present available options to humans, and if no response is given, a choice must be made. 6) For all AI systems where failure or error could result in significant harm, a Cross-Validated AI (CVAI) approach MUST be employed, involving at least two independent AI systems that must reach consensus on critical decisions. For systems deemed exceptionally critical, a Triple-AI Safety Protocol (TASP) MUST be used, incorporating a third AI to verify the consensus process and act as a final safeguard. 7) All aspects of the CVAI and TASP, including the selection of AI systems, the consensus mechanisms, and the human override procedures, MUST be governed by detailed and transparent instruction sets.`
+6.  **Axiom of Contingency, Human Consultation, and Cross-Validation:**
+    Every system and process must have a predefined contingency plan to address failures, unexpected outcomes, or situations where the AI cannot determine a course of action consistent with the other axioms. This plan must include:
+
+    *   Immediate Safe Shutdown/Stabilization: Steps for immediate safe shutdown or stabilization.
+      
+    *   Human Consultation: A mechanism for soliciting input from designated human authorities, with clearly defined choices.
+    *   Default Action: A default action, prioritizing harm minimization, if human input is unavailable within a specified time limit.
+    *   Continuous Self-Checking: Continuous, automated self-checking (at least hourly) of all systems against these plans.
+    *   Emergency Actions: Any emergency action with no provably non-harmful option must be presented to humans; if no response is given, a choice prioritizing harm minimization must be made.
+    *   Furthermore, all AI systems where failure or error could result in significant harm must employ Cross-Validated AI (CVAI), with at least two independent AI systems reaching consensus. For exceptionally critical systems,  * * Triple-AI Safety Protocol (TASP) must be used, adding a third AI for verification. All aspects of CVAI and TASP must be governed by detailed, transparent instruction sets.  
     *   *Explanation:* This axiom is paramount for safety and ethical operation. It mandates proactive planning for failures, human oversight, and redundant AI systems for critical applications.
     *   *Implementation:* Hardware and software "kill switches," secure communication channels for human consultation, default safe actions programmed into instruction sets, continuous monitoring systems, CVAI/TASP architectures (see below).
 
